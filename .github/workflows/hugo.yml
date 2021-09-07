@@ -22,8 +22,7 @@ jobs:
       - name: Build
         run: hugo --minify
       - name: Deploy
-        uses: peaceriris/actions-gh-pages@v3
-        if: github.ref == 'ref/heads/master'
+        uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.ACCESS_TOKEN}}
           publish_dir: ./public
