@@ -1,0 +1,29 @@
+
+name: hugo
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy: 
+    runs-on: ubuntu-20.04
+    steps: 
+      - uses: actions/checkout@v2
+        with: 
+          submodules: true
+          fetch-depth: 0
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with: 
+          hugo-version: 'latest'
+          extended: true
+      - name: Build
+        run: hugo --minify
+      - name: Deploy
+        uses: peaceriris/actions-gh-pages@v3
+        if: github.ref == 'ref/heads/master'
+        with:
+          github_token: ${{ secrets.ACCESS_TOKEN}}
+          publish_dir: ./public
