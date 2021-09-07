@@ -1,12 +1,12 @@
 ---
 weight: 4
-title: "Basic Markdown Syntax"
+title: "Markdown 基本語法"
 date: 2019-12-01T21:57:40+08:00
 lastmod: 2020-01-01T16:45:40+08:00
 draft: false
 author: "Dillon"
 authorLink: "https://dillonzq.com"
-description: "This article shows the basic Markdown syntax and format."
+description: "這篇文章展示了基本的 Markdown 語法和格式."
 resources:
 - name: "featured-image"
   src: "featured-image.png"
@@ -17,117 +17,117 @@ categories: ["Markdown"]
 lightgallery: true
 ---
 
-This article offers a sample of basic Markdown syntax that can be used in Hugo content files.
+這篇文章提供了可以在 Hugo 的文章中使用的基本 Markdown 語法示例.
 
 <!--more-->
 
 {{< admonition >}}
-This article is a shameful copy of the great [Grav original page](http://learn.getgrav.org/content/markdown).
+這篇文章借鑒了一篇很棒的[來自 Grav 的文章](http://learn.getgrav.org/content/markdown).
 
-If you want to know about the extented Markdown syntax of **LoveIt** theme, please read [extended Markdown syntax page](../theme-documentation-content#extended-markdown-syntax).
+如果你想了解 **Loveit** 主題的擴展 Markdown 語法, 請閱讀[擴展 Markdown 語法頁面](../theme-documentation-content#extended-markdown-syntax).
 {{< /admonition >}}
 
-Let's face it: Writing content for the Web is tiresome. WYSIWYG editors help alleviate this task, but they generally result in horrible code, or worse yet, ugly web pages.
+事實上, 編寫 Web 內容很麻煩. [WYSIWYG]^(所見即所得) 編輯器幫助減輕了這一任務. 但通常會導致代碼太糟, 或更糟糕的是, 網頁也會很醜.
 
-**Markdown** is a better way to write **HTML**, without all the complexities and ugliness that usually accompanies it.
+沒有通常伴隨的所有覆雜和醜陋的問題, **Markdown** 是一種更好的生成 **HTML** 內容的方式.
 
-Some of the key benefits are:
+一些主要好處是:
 
-1. Markdown is simple to learn, with minimal extra characters, so it's also quicker to write content.
-2. Less chance of errors when writing in Markdown.
-3. Produces valid XHTML output.
-4. Keeps the content and the visual display separate, so you cannot mess up the look of your site.
-5. Write in any text editor or Markdown application you like.
-6. Markdown is a joy to use!
+1. Markdown 簡單易學, 幾乎沒有多余的字符, 因此編寫內容也更快.
+2. 用 Markdown 書寫時出錯的機會更少.
+3. 可以產生有效的 XHTML 輸出.
+4. 將內容和視覺顯示保持分開, 這樣就不會打亂網站的外觀.
+5. 可以在你喜歡的任何文本編輯器或 Markdown 應用程序中編寫內容.
+6. Markdown 使用起來很有趣!
 
-John Gruber, the author of Markdown, puts it like this:
+John Gruber, Markdown 的作者如是說:
 
-> The overriding design goal for Markdown’s formatting syntax is to make it as readable as possible.
-> The idea is that a Markdown-formatted document should be publishable as-is, as plain text,
-> without looking like it’s been marked up with tags or formatting instructions.
-> While Markdown’s syntax has been influenced by several existing text-to-HTML filters,
-> the single biggest source of inspiration for Markdown’s syntax is the format of plain text email.
+> Markdown 格式的首要設計目標是更具可讀性.
+> 最初的想法是 Markdown 格式的文檔應當以純文本形式發布,
+> 而不會看起來像被標簽或格式說明所標記.
+> 雖然 Markdown 的語法受到幾種現有的文本到 HTML 轉換工具的影響,
+> 但 Markdown 語法的最大靈感來源是純文本電子郵件的格式.
 >
 > {{< style "text-align: right;" >}}-- _John Gruber_{{< /style >}}
 
-Without further delay, let us go over the main elements of Markdown and what the resulting HTML looks like!
+話不多說, 我們來回顧一下 Markdown 的主要語法以及生成的 HTML 樣式!
 
 {{< admonition tip >}}
-:(far fa-bookmark fa-fw): Bookmark this page for easy future reference!
+:(far fa-bookmark fa-fw): 將此頁保存為書簽，以備將來參考!
 {{< /admonition >}}
 
-## 1 Headings
+## 1 標題
 
-Headings from `h2` through `h6` are constructed with a `#` for each level:
-
-```markdown
-## h2 Heading
-### h3 Heading
-#### h4 Heading
-##### h5 Heading
-###### h6 Heading
-```
-
-The HTML looks like this:
-
-```html
-<h2>h2 Heading</h2>
-<h3>h3 Heading</h3>
-<h4>h4 Heading</h4>
-<h5>h5 Heading</h5>
-<h6>h6 Heading</h6>
-```
-
-{{< admonition note "Heading IDs" >}}
-To add a custom heading ID, enclose the custom ID in curly braces on the same line as the heading:
+從 `h2` 到 `h6` 的標題在每個級別上都加上一個 `＃`:
 
 ```markdown
-### A Great Heading {#custom-id}
+## h2 標題
+### h3 標題
+#### h4 標題
+##### h5 標題
+###### h6 標題
 ```
 
-The HTML looks like this:
+輸出的 HTML 看起來像這樣:
 
 ```html
-<h3 id="custom-id">A Great Heading</h3>
+<h2>h2 標題</h2>
+<h3>h3 標題</h3>
+<h4>h4 標題</h4>
+<h5>h5 標題</h5>
+<h6>h6 標題</h6>
+```
+
+{{< admonition note "標題 ID" >}}
+要添加自定義標題 ID, 請在與標題相同的行中將自定義 ID 放在花括號中:
+
+```markdown
+### 一個很棒的標題 {#custom-id}
+```
+
+輸出的 HTML 看起來像這樣:
+
+```html
+<h3 id="custom-id">一個很棒的標題</h3>
 ```
 {{< /admonition >}}
 
-## 2 Comments
+## 2 注釋
 
-Comments should be HTML compatible.
+注釋是和 HTML 兼容的：
 
 ```html
 <!--
-This is a comment
+這是一段注釋
 -->
 ```
 
-Comment below should **NOT** be seen:
+**不能**看到以下的注釋:
 
 <!--
-This is a comment
+這是一段注釋
 -->
 
-## 3 Horizontal Rules
+## 3 水平線
 
-The HTML `<hr>` element is for creating a "thematic break" between paragraph-level elements.
-In Markdown, you can create a `<hr>` with any of the following:
+HTML 中的 `<hr>` 標簽是用來在段落元素之間創建一個 "專題間隔" 的.
+使用 Markdown, 你可以用以下方式創建一個 `<hr>` 標簽:
 
-* `___`: three consecutive underscores
-* `---`: three consecutive dashes
-* `***`: three consecutive asterisks
+* `___`: 三個連續的下劃線
+* `---`: 三個連續的破折號
+* `***`: 三個連續的星號
 
-The rendered output looks like this:
+呈現的輸出效果如下:
 
 ___
 ---
 ***
 
-## 4 Body Copy
+## 4 段落
 
-Body copy written as normal, plain text will be wrapped with `<p></p>` tags in the rendered HTML.
+按照純文本的方式書寫段落, 純文本在呈現的 HTML 中將用 `<p>`/`</p>` 標簽包裹.
 
-So this body copy:
+如下段落:
 
 ```markdown
 Lorem ipsum dolor sit amet, graecis denique ei vel, at duo primis mandamus. Et legere ocurreret pri,
@@ -135,127 +135,127 @@ animal tacimates complectitur ad cum. Cu eum inermis inimicus efficiendi. Labore
 soluta officiis concludaturque ei qui, vide sensibus vim ad.
 ```
 
-The HTML looks like this:
+輸出的 HTML 看起來像這樣:
 
 ```html
 <p>Lorem ipsum dolor sit amet, graecis denique ei vel, at duo primis mandamus. Et legere ocurreret pri, animal tacimates complectitur ad cum. Cu eum inermis inimicus efficiendi. Labore officiis his ex, soluta officiis concludaturque ei qui, vide sensibus vim ad.</p>
 ```
 
-A **line break** can be done with one blank line.
+可以使用一個空白行進行**換行**.
 
-## 5 Inline HTML
+## 5 內聯 HTML 元素
 
-If you need a certain HTML tag (with a class) you can simply use HTML:
+如果你需要某個 HTML 標簽 (帶有一個類), 則可以簡單地像這樣使用:
 
 ```html
-Paragraph in Markdown.
+Markdown 格式的段落.
 
 <div class="class">
-    This is <b>HTML</b>
+    這是 <b>HTML</b>
 </div>
 
-Paragraph in Markdown.
+Markdown 格式的段落.
 ```
 
-## 6 Emphasis
+## 6 強調
 
-### Bold
+### 加粗
 
-For emphasizing a snippet of text with a heavier font-weight.
+用於強調帶有較粗字體的文本片段.
 
-The following snippet of text is **rendered as bold text**.
+以下文本片段會被 **渲染為粗體**.
 
 ```markdown
-**rendered as bold text**
-__rendered as bold text__
+**渲染為粗體**
+__渲染為粗體__
 ```
 
-The HTML looks like this:
+輸出的 HTML 看起來像這樣:
 
 ```html
-<strong>rendered as bold text</strong>
+<strong>渲染為粗體</strong>
 ```
 
-### Italics
+### 斜體
 
-For emphasizing a snippet of text with italics.
+用於強調帶有斜體的文本片段.
 
-The following snippet of text is _rendered as italicized text_.
+以下文本片段被 _渲染為斜體_.
 
 ```markdown
-*rendered as italicized text*
-_rendered as italicized text_
+*渲染為斜體*
+_渲染為斜體_
 ```
 
-The HTML looks like this:
+輸出的 HTML 看起來像這樣:
 
 ```html
-<em>rendered as italicized text</em>
+<em>渲染為斜體</em>
 ```
 
-### Strikethrough
+### 刪除線
 
-In [[GFM]^(GitHub flavored Markdown)](https://github.github.com/gfm/) you can do strikethroughs.
+按照 [[GFM]^(GitHub flavored Markdown)](https://github.github.com/gfm/) 你可以使用刪除線.
 
 ```markdown
-~~Strike through this text.~~
+~~這段文本帶有刪除線.~~
 ```
 
-The rendered output looks like this:
+呈現的輸出效果如下:
 
-~~Strike through this text.~~
+~~這段文本帶有刪除線.~~
 
-The HTML looks like this:
+輸出的 HTML 看起來像這樣:
 
 ```html
-<del>Strike through this text.</del>
+<del>這段文本帶有刪除線.</del>
 ```
 
-### Combination
+### 組合
 
-Bold, italics, and strikethrough can be used in combination.
+加粗, 斜體, 和刪除線可以 組合使用.
 
 ```markdown
-***bold and italics***
-~~**strikethrough and bold**~~
-~~*strikethrough and italics*~~
-~~***bold, italics and strikethrough***~~
+***加粗和斜體***
+~~**刪除線和加粗**~~
+~~*刪除線和斜體*~~
+~~***加粗, 斜體和刪除線***~~
 ```
 
-The rendered output looks like this:
+呈現的輸出效果如下:
 
-***bold and italics***
+***加粗和斜體***
 
-~~**strikethrough and bold**~~
+~~**刪除線和加粗**~~
 
-~~*strikethrough and italics*~~
+~~*刪除線和斜體*~~
 
-~~***bold, italics and strikethrough***~~
+~~***加粗, 斜體和刪除線***~~
 
-The HTML looks like this:
+輸出的 HTML 看起來像這樣:
 
 ```html
-<em><strong>bold and italics</strong></em>
-<del><strong>strikethrough and bold</strong></del>
-<del><em>strikethrough and italics</em></del>
-<del><em><strong>bold, italics and strikethrough</strong></em></del>
+<em><strong>加粗和斜體</strong></em>
+<del><strong>刪除線和加粗</strong></del>
+<del><em>刪除線和斜體</em></del>
+<del><em><strong>加粗, 斜體和刪除線</strong></em></del>
 ```
 
-## 7 Blockquotes
+## 7 引用
 
-For quoting blocks of content from another source within your document.
+用於在文檔中引用其他來源的內容塊.
 
-Add `>` before any text you want to quote:
+在要引用的任何文本之前添加 `>`:
 
 ```markdown
 > **Fusion Drive** combines a hard drive with a flash storage (solid-state drive) and presents it as a single logical volume with the space of both drives combined.
 ```
 
-The rendered output looks like this:
+呈現的輸出效果如下:
 
 > **Fusion Drive** combines a hard drive with a flash storage (solid-state drive) and presents it as a single logical volume with the space of both drives combined.
 
-The HTML looks like this:
+輸出的 HTML 看起來像這樣:
 
 ```html
 <blockquote>
@@ -265,7 +265,7 @@ The HTML looks like this:
 </blockquote>
 ```
 
-Blockquotes can also be nested:
+引用也可以嵌套:
 
 ```markdown
 > Donec massa lacus, ultricies a ullamcorper in, fermentum sed augue.
@@ -274,28 +274,28 @@ Nunc augue augue, aliquam non hendrerit ac, commodo vel nisi.
 odio non est accumsan facilisis. Aliquam id turpis in dolor tincidunt mollis ac eu diam.
 ```
 
-The rendered output looks like this:
+呈現的輸出效果如下:
 
 > Donec massa lacus, ultricies a ullamcorper in, fermentum sed augue.
 Nunc augue augue, aliquam non hendrerit ac, commodo vel nisi.
 >> Sed adipiscing elit vitae augue consectetur a gravida nunc vehicula. Donec auctor
 odio non est accumsan facilisis. Aliquam id turpis in dolor tincidunt mollis ac eu diam.
 
-## 8 Lists
+## 8 列表
 
-### Unordered
+### 無序列表
 
-A list of items in which the order of the items does not explicitly matter.
+一系列項的列表, 其中項的順序沒有明顯關系.
 
-You may use any of the following symbols to denote bullets for each list item:
+你可以使用以下任何符號來表示無序列表中的項:
 
 ```markdown
-* valid bullet
-- valid bullet
-+ valid bullet
+* 一項內容
+- 一項內容
++ 一項內容
 ```
 
-For example:
+例如:
 
 ```markdown
 * Lorem ipsum dolor sit amet
@@ -312,7 +312,7 @@ For example:
 * Eget porttitor lorem
 ```
 
-The rendered output looks like this:
+呈現的輸出效果如下:
 
 * Lorem ipsum dolor sit amet
 * Consectetur adipiscing elit
@@ -327,7 +327,7 @@ The rendered output looks like this:
 * Aenean sit amet erat nunc
 * Eget porttitor lorem
 
-The HTML looks like this:
+輸出的 HTML 看起來像這樣:
 
 ```html
 <ul>
@@ -349,9 +349,9 @@ The HTML looks like this:
 </ul>
 ```
 
-### Ordered
+### 有序列表
 
-A list of items in which the order of items does explicitly matter.
+一系列項的列表, 其中項的順序確實很重要.
 
 ```markdown
 1. Lorem ipsum dolor sit amet
@@ -364,7 +364,7 @@ A list of items in which the order of items does explicitly matter.
 8. Eget porttitor lorem
 ```
 
-The rendered output looks like this:
+呈現的輸出效果如下:
 
 1. Lorem ipsum dolor sit amet
 2. Consectetur adipiscing elit
@@ -375,7 +375,7 @@ The rendered output looks like this:
 7. Aenean sit amet erat nunc
 8. Eget porttitor lorem
 
-The HTML looks like this:
+輸出的 HTML 看起來像這樣:
 
 ```html
 <ol>
@@ -391,7 +391,7 @@ The HTML looks like this:
 ```
 
 {{< admonition tip >}}
-If you just use `1.` for each number, Markdown will automatically number each item. For example:
+如果你對每一項使用 `1.`, Markdown 將自動為每一項編號. 例如:
 
 ```markdown
 1. Lorem ipsum dolor sit amet
@@ -404,7 +404,7 @@ If you just use `1.` for each number, Markdown will automatically number each it
 1. Eget porttitor lorem
 ```
 
-The rendered output looks like this:
+呈現的輸出效果如下:
 
 1. Lorem ipsum dolor sit amet
 1. Consectetur adipiscing elit
@@ -416,9 +416,10 @@ The rendered output looks like this:
 1. Eget porttitor lorem
 {{< /admonition >}}
 
-### Task Lists
+### 任務列表
 
-Task lists allow you to create a list of items with checkboxes. To create a task list, add dashes (`-`) and brackets with a space (`[ ]`) before task list items. To select a checkbox, add an x in between the brackets (`[x]`).
+任務列表使你可以創建帶有覆選框的列表.
+要創建任務列表, 請在任務列表項之前添加破折號 (`-`) 和帶有空格的方括號 (`[ ]`). 要選擇一個覆選框，請在方括號之間添加 x (`[x]`).
 
 ```markdown
 - [x] Write the press release
@@ -426,37 +427,37 @@ Task lists allow you to create a list of items with checkboxes. To create a task
 - [ ] Contact the media
 ```
 
-The rendered output looks like this:
+呈現的輸出效果如下:
 
 - [x] Write the press release
 - [ ] Update the website
 - [ ] Contact the media
 
-## 9 Code
+## 9 代碼
 
-### Inline Code
+### 行內代碼
 
-Wrap inline snippets of code with <code>`</code>.
+用 <code>`</code> 包裝行內代碼段.
 
 ```markdown
-In this example, `<section></section>` should be wrapped as **code**.
+在這個例子中, `<section></section>` 會被包裹成 **代碼**.
 ```
 
-The rendered output looks like this:
+呈現的輸出效果如下:
 
-In this example, `<section></section>` should be wrapped as **code**.
+在這個例子中, `<section></section>` 會被包裹成 **代碼**.
 
-The HTML looks like this:
+輸出的 HTML 看起來像這樣:
 
 ```html
 <p>
-  In this example, <code>&lt;section&gt;&lt;/section&gt;</code> should be wrapped with <strong>code</strong>.
+  在這個例子中, <code>&lt;section&gt;&lt;/section&gt;</code> 會被包裹成 <strong>代碼</strong>.
 </p>
 ```
 
-### Indented Code
+### 縮進代碼
 
-Or indent several lines of code by at least four spaces, as in:
+將幾行代碼縮進至少四個空格，例如:
 
 ```markdown
     // Some comments
@@ -465,14 +466,14 @@ Or indent several lines of code by at least four spaces, as in:
     line 3 of code
 ```
 
-The rendered output looks like this:
+呈現的輸出效果如下:
 
     // Some comments
     line 1 of code
     line 2 of code
     line 3 of code
 
-The HTML looks like this:
+輸出的 HTML 看起來像這樣:
 
 ```html
 <pre>
@@ -485,9 +486,9 @@ The HTML looks like this:
 </pre>
 ```
 
-### Block Fenced Code
+### 圍欄代碼塊
 
-Use "fences" <code>```</code> to block in multiple lines of code with a language attribute.
+使用 "圍欄" <code>```</code> 來生成一段帶有語言屬性的代碼塊.
 
 {{< highlight markdown >}}
 ```markdown
@@ -495,7 +496,7 @@ Sample text here...
 ```
 {{< / highlight >}}
 
-The HTML looks like this:
+輸出的 HTML 看起來像這樣:
 
 ```html
 <pre language-html>
@@ -503,14 +504,14 @@ The HTML looks like this:
 </pre>
 ```
 
-### Syntax Highlighting
+### 語法高亮
 
-[GFM]^(GitHub Flavored Markdown) also supports syntax highlighting.
+[GFM]^(GitHub Flavored Markdown) 也支持語法高亮.
 
-To activate it, simply add the file extension of the language you want to use directly after the first code "fence",
-<code>```js</code>, and syntax highlighting will automatically be applied in the rendered HTML.
+要激活它，只需在第一個代碼 "圍欄" 之後直接添加你要使用的語言的文件擴展名,
+<code>```js</code>, 語法高亮顯示將自動應用於渲染的 HTML 中.
 
-For example, to apply syntax highlighting to JavaScript code:
+例如, 在以下 JavaScript 代碼中應用語法高亮:
 
 {{< highlight markdown >}}
 ```js
@@ -535,7 +536,7 @@ grunt.initConfig({
 ```
 {{< / highlight >}}
 
-The rendered output looks like this:
+呈現的輸出效果如下:
 
 ```js
 grunt.initConfig({
@@ -559,12 +560,13 @@ grunt.initConfig({
 ```
 
 {{< admonition >}}
-[Syntax highlighting page](https://gohugo.io/content-management/syntax-highlighting/) in **Hugo** Docs introduces more about syntax highlighting, including highlight shortcode.
+**Hugo** 文檔中的 [語法高亮頁面](https://gohugo.io/content-management/syntax-highlighting/) 介紹了有關語法高亮的更多信息,
+包括語法高亮的 shortcode.
 {{< /admonition >}}
 
-## 10 Tables
+## 10 表格
 
-Tables are created by adding pipes as dividers between each cell, and by adding a line of dashes (also separated by bars) beneath the header. Note that the pipes do not need to be vertically aligned.
+通過在每個單元格之間添加豎線作為分隔線, 並在標題下添加一行破折號 (也由豎線分隔) 來創建表格. 注意, 豎線不需要垂直對齊.
 
 ```markdown
 | Option | Description |
@@ -574,7 +576,7 @@ Tables are created by adding pipes as dividers between each cell, and by adding 
 | ext    | extension to be used for dest files. |
 ```
 
-The rendered output looks like this:
+呈現的輸出效果如下:
 
 | Option | Description |
 | ------ | ----------- |
@@ -582,7 +584,7 @@ The rendered output looks like this:
 | engine | engine to be used for processing templates. Handlebars is the default. |
 | ext    | extension to be used for dest files. |
 
-The HTML looks like this:
+輸出的 HTML 看起來像這樣:
 
 ```html
 <table>
@@ -609,10 +611,10 @@ The HTML looks like this:
 </table>
 ```
 
-{{< admonition note "Right or center aligned text" >}}
-Adding a colon on the right side of the dashes below any heading will right align text for that column.
+{{< admonition note "文本右對齊或居中對齊" >}}
+在任何標題下方的破折號右側添加冒號將使該列的文本右對齊.
 
-Adding colons on both sides of the dashes below any heading will center align text for that column.
+在任何標題下方的破折號兩邊添加冒號將使該列的對齊文本居中.
 
 ```markdown
 | Option | Description |
@@ -622,7 +624,7 @@ Adding colons on both sides of the dashes below any heading will center align te
 | ext    | extension to be used for dest files. |
 ```
 
-The rendered output looks like this:
+呈現的輸出效果如下:
 
 | Option | Description |
 |:------:| -----------:|
@@ -631,9 +633,9 @@ The rendered output looks like this:
 | ext    | extension to be used for dest files. |
 {{< /admonition >}}
 
-## 11 Links {#links}
+## 11 鏈接 {#links}
 
-### Basic Link
+### 基本鏈接
 
 ```markdown
 <https://assemble.io>
@@ -641,7 +643,7 @@ The rendered output looks like this:
 [Assemble](https://assemble.io)
 ```
 
-The rendered output looks like this (hover over the link, there is no tooltip):
+呈現的輸出效果如下 (將鼠標懸停在鏈接上，沒有提示):
 
 <https://assemble.io>
 
@@ -649,7 +651,7 @@ The rendered output looks like this (hover over the link, there is no tooltip):
 
 [Assemble](https://assemble.io)
 
-The HTML looks like this:
+輸出的 HTML 看起來像這樣:
 
 ```html
 <a href="https://assemble.io">https://assemble.io</a>
@@ -657,25 +659,25 @@ The HTML looks like this:
 <a href="https://assemble.io">Assemble</a>
 ```
 
-### Add a Title
+### 添加一個標題
 
 ```markdown
 [Upstage](https://github.com/upstage/ "Visit Upstage!")
 ```
 
-The rendered output looks like this (hover over the link, there should be a tooltip):
+呈現的輸出效果如下 (將鼠標懸停在鏈接上，會有一行提示):
 
 [Upstage](https://github.com/upstage/ "Visit Upstage!")
 
-The HTML looks like this:
+輸出的 HTML 看起來像這樣:
 
 ```html
 <a href="https://github.com/upstage/" title="Visit Upstage!">Upstage</a>
 ```
 
-### Named Anchors
+### 定位標記
 
-Named anchors enable you to jump to the specified anchor point on the same page. For example, each of these chapters:
+定位標記使你可以跳至同一頁面上的指定錨點. 例如, 每個章節:
 
 ```markdown
 ## Table of Contents
@@ -684,7 +686,7 @@ Named anchors enable you to jump to the specified anchor point on the same page.
   * [Chapter 3](#chapter-3)
 ```
 
-will jump to these sections:
+將跳轉到這些部分:
 
 ```markdown
 ## Chapter 1 <a id="chapter-1"></a>
@@ -698,35 +700,40 @@ Content for chapter one.
 ```
 
 {{< admonition >}}
-The specific placement of the anchor tag seems to be arbitrary. They are placed inline here since it seems to be unobtrusive, and it works.
+定位標記的位置幾乎是任意的. 因為它們並不引人注目, 所以它們通常被放在同一行了.
 {{< /admonition >}}
 
-## 12 Footnotes
+## 12 腳注
 
-Footnotes allow you to add notes and references without cluttering the body of the document. When you create a footnote, a superscript number with a link appears where you added the footnote reference. Readers can click the link to jump to the content of the footnote at the bottom of the page.
+腳注使你可以添加注釋和參考, 而不會使文檔正文混亂.
+當你創建腳注時, 會在添加腳注引用的位置出現帶有鏈接的上標編號.
+讀者可以單擊鏈接以跳至頁面底部的腳注內容.
 
-To create a footnote reference, add a caret and an identifier inside brackets (`[^1]`). Identifiers can be numbers or words, but they can’t contain spaces or tabs. Identifiers only correlate the footnote reference with the footnote itself — in the output, footnotes are numbered sequentially.
+要創建腳注引用, 請在方括號中添加插入符號和標識符 (`[^1]`).
+標識符可以是數字或單詞, 但不能包含空格或制表符.
+標識符僅將腳注引用與腳注本身相關聯 - 在腳注輸出中, 腳注按順序編號.
 
-Add the footnote using another caret and number inside brackets with a colon and text (`[^1]: My footnote.`). You don’t have to put footnotes at the end of the document. You can put them anywhere except inside other elements like lists, block quotes, and tables.
+在中括號內使用插入符號和數字以及用冒號和文本來添加腳注內容 (`[^1]：這是一段腳注`).
+你不一定要在文檔末尾添加腳注. 可以將它們放在除列表, 引用和表格等元素之外的任何位置.
 
 ```markdown
-This is a digital footnote[^1].
-This is a footnote with "label"[^label]
+這是一個數字腳注[^1].
+這是一個帶標簽的腳注[^label]
 
-[^1]: This is a digital footnote
-[^label]: This is a footnote with "label"
+[^1]: 這是一個數字腳注
+[^label]: 這是一個帶標簽的腳注
 ```
 
-This is a digital footnote[^1].
+這是一個數字腳注[^1].
 
-This is a footnote with "label"[^label]
+這是一個帶標簽的腳注[^label]
 
-[^1]: This is a digital footnote
-[^label]: This is a footnote with "label"
+[^1]: 這是一個數字腳注
+[^label]: 這是一個帶標簽的腳注
 
-## 13 Images
+## 13 圖片
 
-Images have a similar syntax to links but include a preceding exclamation point.
+圖片的語法與鏈接相似, 但包含一個在前面的感嘆號.
 
 ```markdown
 ![Minion](https://octodex.github.com/images/minion.png)
@@ -734,7 +741,7 @@ Images have a similar syntax to links but include a preceding exclamation point.
 
 ![Minion](https://octodex.github.com/images/minion.png)
 
-or:
+或者:
 
 ```markdown
 ![Alt text](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
@@ -742,7 +749,7 @@ or:
 
 ![Alt text](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
 
-Like links, images also have a footnote style syntax:
+像鏈接一樣, 圖片也具有腳注樣式的語法:
 
 ```markdown
 ![Alt text][id]
@@ -750,7 +757,7 @@ Like links, images also have a footnote style syntax:
 
 ![Alt text][id]
 
-With a reference later in the document defining the URL location:
+稍後在文檔中提供參考內容, 用來定義 URL 的位置:
 
 ```markdown
 [id]: https://octodex.github.com/images/dojocat.jpg  "The Dojocat"
@@ -759,5 +766,5 @@ With a reference later in the document defining the URL location:
 [id]: https://octodex.github.com/images/dojocat.jpg  "The Dojocat"
 
 {{< admonition tip >}}
-**LoveIt** theme has [special shortcode for image](../theme-documentation-extended-shortcodes#image), which provides more features.
+**LoveIt** 主題提供了一個包含更多功能的 [圖片的 shortcode](../theme-documentation-extended-shortcodes#image).
 {{< /admonition >}}
