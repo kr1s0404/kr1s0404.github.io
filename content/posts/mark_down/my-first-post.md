@@ -16,6 +16,8 @@ lightgallery: true
 
 Hugo - Markdown 範例實作 
 
+<!--more-->
+
 
 # Header Test 1
 ## Header Test 2
