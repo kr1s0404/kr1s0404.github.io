@@ -1,4 +1,4 @@
 baseURL = 'https://kr1s0404.github.io/'
-languageCode = 'en-us'
+languageCode = 'zh-TW'
 title = 'Kris的網站'
 theme = "ananke"
