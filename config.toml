@@ -1,8 +1,8 @@
 baseURL = "https://kr1s0404.github.io/"
 # [en, zh-cn, fr, ...] 设置默认的语言
-defaultContentLanguage = "zh-TW"
+defaultContentLanguage = "zh-CN"
 # 网站语言, 仅在这里 CN 大写
-languageCode = "zh-TW"
+languageCode = "zh-CN"
 # 是否包括中日韩文字
 hasCJKLanguage = true
 # 网站标题
