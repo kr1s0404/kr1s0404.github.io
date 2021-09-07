@@ -27,7 +27,7 @@ lightgallery: true
 如果你想了解 **Loveit** 主題的擴展 Markdown 語法, 請閱讀[擴展 Markdown 語法頁面](../theme-documentation-content#extended-markdown-syntax).
 {{< /admonition >}}
 
-事實上, 編寫 Web 內容很麻煩. [WYSIWYG]^(所見即所得) 編輯器幫助減輕了這一任務. 但通常會導致代碼太糟, 或更糟糕的是, 網頁也會很醜.
+事實上, 編寫 Web 內容很麻煩. 編輯器幫助減輕了這一任務. 但通常會導致代碼太糟, 或更糟糕的是, 網頁也會很醜.
 
 沒有通常伴隨的所有覆雜和醜陋的問題, **Markdown** 是一種更好的生成 **HTML** 內容的方式.
 
