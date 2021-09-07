@@ -2,6 +2,7 @@
 title: "My First Post"
 date: 2021-09-07T11:48:01+08:00
 draft: false
+description: "第一篇markdown文章測試."
 author: Kr1s
 resources:
 - name: "featured-image"
@@ -12,6 +13,9 @@ categories: ["Markdown"]
 
 lightgallery: true
 ---
+
+Hugo - Markdown 範例實作 
+
 
 # Header Test 1
 ## Header Test 2
