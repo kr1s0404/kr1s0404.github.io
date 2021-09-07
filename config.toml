@@ -1,5 +1,4 @@
-baseURL = "http://example.org/"
-# [en, zh-cn, fr, ...] 设置默认的语言
+baseURL = "https://kr1s0404.github.io/"
 languageCode = "zh-TW"
 # 是否包括中日韩文字
 hasCJKLanguage = true
