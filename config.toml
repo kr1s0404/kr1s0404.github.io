@@ -1,4 +1,4 @@
-baseURL = "https://kr1s0404.github.io/"
+baseURL = "http://example.com/"
 # [en, zh-cn, fr, ...] 设置默认的语言
 defaultContentLanguage = "zh-TW" # Default language to use
 [languages.en]
