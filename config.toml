@@ -3,7 +3,6 @@ baseURL = "https://kr1s0404.github.io/"
 defaultContentLanguage = "zh-TW" # Default language to use
 [languages.en]
 languageCode = "en"
-// 中文语言支持
 [languages.zh-TW]
 languageCode = "zh-TW"
 # 是否包括中日韩文字
