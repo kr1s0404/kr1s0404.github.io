@@ -6,7 +6,7 @@ lastmod: 2020-01-01T16:45:40+08:00
 draft: false
 author: "Dillon"
 authorLink: "https://dillonzq.com"
-description: "这篇文章展示了基本的 Markdown 语法和格式."
+description: "第一篇markdown文章測試ㄋ."
 resources:
 - name: "featured-image"
   src: "featured-image.png"
