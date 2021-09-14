@@ -1,10 +1,9 @@
 ---
 weight:
-title: "測試"
+title: "TEST"
 date: 2021-09-07T11:48:01+08:00
 draft: false
 author: Kr1s
-
 resources:
 - name: "featured-image"
   src: "featured-image.png"
@@ -15,4 +14,8 @@ categories: ["Markdown"]
 lightgallery: true
 ---
 
-##H2 TEST
+{{< admonition >}}
+
+TEST
+
+{{< admonition >}}
