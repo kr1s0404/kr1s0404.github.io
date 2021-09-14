@@ -6,7 +6,7 @@ draft: false
 author: Kr1s
 resources:
 - name: "featured-image-preview"
-  src: "twitch.png"
+  src: "twitch.jpg"
 
 tags: ["Markdown", "HTML"]
 categories: ["Markdown"]
