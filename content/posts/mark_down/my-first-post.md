@@ -6,9 +6,9 @@ draft: false
 author: Kr1s
 resources:
 - name: featured-image
-  src: featured-image.jpg
+  src: images/featured-image.png
 - name: featured-image-preview
-  src: featured-image-preview.jpg
+  src: images/featured-image-preview.png
 tags: ["Markdown", "HTML"]
 categories: ["Markdown"]
 
