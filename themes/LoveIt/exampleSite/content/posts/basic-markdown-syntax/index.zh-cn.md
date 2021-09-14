@@ -6,11 +6,8 @@ lastmod: 2020-01-01T16:45:40+08:00
 draft: false
 author: "Dillon"
 authorLink: "https://dillonzq.com"
-description: "第一篇markdown文章測試ㄋ."
-resources:
-- name: "featured-image"
-  src: "featured-image.png"
-
+description: "第一篇markdown文章測試."
+featuredImagePreview: "featured-image.png"
 tags: ["Markdown", "HTML"]
 categories: ["Markdown"]
 
