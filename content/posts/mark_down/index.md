@@ -1,5 +1,5 @@
 ---
-weight:
+weight: 1
 title: "TEST"
 date: 2021-09-07T11:48:01+08:00
 draft: false
