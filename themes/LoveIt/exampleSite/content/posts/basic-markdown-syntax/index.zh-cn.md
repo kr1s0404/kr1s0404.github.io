@@ -7,7 +7,7 @@ draft: false
 author: "Dillon"
 authorLink: "https://dillonzq.com"
 description: "第一篇markdown文章測試."
-featuredImagePreview: "featured-image.png"
+featuredImage: "featured-image.png"
 tags: ["Markdown", "HTML"]
 categories: ["Markdown"]
 
