@@ -1,4 +1,4 @@
-baseURL = "https://blog.kris0404.com/123"
+baseURL = "https://blog.kris0404.com"
 languageCode = "zh-TW"
 # 是否包括中日韩文字
 hasCJKLanguage = true
