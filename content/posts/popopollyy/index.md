@@ -1,7 +1,7 @@
 ---
 weight: 1
 title: "popopollyy"
-date: 2021-09-07T11:48:01+08:00
+date: 2021-09-05T11:48:01+08:00
 draft: false
 author: Kr1s
 resources:
@@ -24,8 +24,8 @@ lightgallery: true
 開開玩笑，做作效果，不要那麼火爆
 {{< /admonition >}}
  
-## 各種聊天室
 --- 
+## 各種聊天室
 ### APEX 0傷害的POZ
 
 {{< image src = "poz_strong.png" caption = "APEX 0傷害的POZ" >}}
@@ -46,6 +46,15 @@ lightgallery: true
 
 ## 波利的美妙歌聲
 
+### 要愛愛
 {{< youtube 5xcNfUgAGss >}}
+
+---
+
+## 有關於POZ的梗圖
+
+### 老波寶都要習慣的事 
+
+{{< image src = "poz_fanTrash.png" caption = "波寶都被丟到垃圾桶了" :sob: >}}
 
 ---
