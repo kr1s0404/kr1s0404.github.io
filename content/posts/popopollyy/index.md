@@ -20,12 +20,6 @@ lightgallery: true
 
 ~~跟大家介紹一下，這是我老婆波利~~
 
-{{< admonition >}}
-
-開開玩笑，做作效果，不要那麼火爆，K?
-
-{{< admonition >}}
-
 --- 
 
 ## APEX 0傷害的POZ
