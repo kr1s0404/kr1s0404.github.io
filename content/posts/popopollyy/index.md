@@ -32,10 +32,6 @@ lightgallery: true
 
 {{< image src = "poz_strong.png" caption = "APEX 0傷害的POZ" >}}
 
-{{< typeit >}}
- **鼠寶**，你為什麼要毀了我的截圖 :rage:
-{{< /typeit >}}
-
 ---
 
 ## 海研趁POZ不在的時候偷嘴
