@@ -29,6 +29,7 @@ lightgallery: true
 ### APEX 0傷害的POZ
 
 {{< image src = "poz_strong.png" caption = "APEX 0傷害的POZ" >}}
+**鼠寶**，你的出現毀了這張截圖，你 出去 :rage:
 
 ---
 
