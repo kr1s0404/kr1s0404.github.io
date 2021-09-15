@@ -22,12 +22,19 @@ lightgallery: true
 
 --- 
 
-## 各種聊天室
+## APEX 0傷害的POZ
 
 {{< image src = "poz_strong.png" >}}
 
-{{< image src = "poz_suck.png" >}}
+{{< typeit >}}
+ **鼠寶**，你為什麼要毀了我的截圖 :rage:
+{{< /typeit >}}
 
+---
+
+## 海研趁POZ不在的時候偷嘴
+
+{{< image src = "poz_suck.png" >}}
 ---
 
 ## 波利的美妙歌聲
