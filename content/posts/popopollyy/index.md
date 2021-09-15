@@ -30,7 +30,7 @@ lightgallery: true
 
 ## APEX 0傷害的POZ
 
-{{< image src = "poz_strong.png" >}}
+{{< image src = "poz_strong.png" caption = "APEX 0傷害的POZ" >}}
 
 {{< typeit >}}
  **鼠寶**，你為什麼要毀了我的截圖 :rage:
@@ -40,13 +40,13 @@ lightgallery: true
 
 ## 海研趁POZ不在的時候偷嘴
 
-{{< image src = "poz_suck.png" >}}
+{{< image src = "poz_suck.png" caption = "海研趁POZ不在的時候偷嘴" >}}
 
 ---
 
 ## 驚！POZ被前男友拋棄了
 
-{{< image src = "poz_nolove.png" >}}
+{{< image src = "poz_nolove.png" caption = "驚！POZ被前男友拋棄了" >}}
 
 ---
 
