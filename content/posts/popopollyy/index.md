@@ -20,13 +20,9 @@ lightgallery: true
 
 ~~跟大家介紹一下，這是我老婆波利~~
 
----
-
-{{< admonition >}}
-
-開開玩笑，做作效果，不要那麼火爆，K?
-
-{{< admonition >}}
+{{< admonition type = tip title = "愛妳喔" open = false >}}
+開開玩笑，做作效果，不要那麼火爆
+{{< /admonition >}}
 
 --- 
 ## 各種聊天室
