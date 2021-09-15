@@ -41,6 +41,13 @@ lightgallery: true
 ## 海研趁POZ不在的時候偷嘴
 
 {{< image src = "poz_suck.png" >}}
+
+---
+
+## 驚！POZ被前男友拋棄了
+
+{{< image src = "poz_nolove.png" >}}
+
 ---
 
 ## 波利的美妙歌聲
