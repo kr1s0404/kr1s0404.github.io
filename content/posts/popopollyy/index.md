@@ -30,19 +30,19 @@ lightgallery: true
 
 ## APEX 0傷害的POZ
 
-{{< image src = "poz_strong.png" caption = "APEX 0傷害的POZ" >}}
+{{< image src = "poz_strong.png" >}}
 
 ---
 
 ## 海研趁POZ不在的時候偷嘴
 
-{{< image src = "poz_suck.png" caption = "海研趁POZ不在的時候偷嘴" >}}
+{{< image src = "poz_suck.png" >}}
 
 ---
 
 ## 驚！POZ被前男友拋棄了
 
-{{< image src = "poz_nolove.png" caption = "驚！POZ被前男友拋棄了" >}}
+{{< image src = "poz_nolove.png" >}}
 
 ---
 
