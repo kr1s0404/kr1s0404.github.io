@@ -55,6 +55,6 @@ lightgallery: true
 
 ### 老波寶都要習慣的事 
 
-{{< image src = "poz_fanTrash.png" caption = "波寶都被丟到垃圾桶了" :sob: >}}
+{{< image src = "poz_fanTrash.png" caption = "波寶都被丟到垃圾桶了" >}}
 
 ---
