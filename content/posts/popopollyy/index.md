@@ -4,9 +4,12 @@ title: "popopollyy"
 date: 2021-09-05T11:48:01+08:00
 draft: false
 author: Kr1s
+
 resources:
 - name: "featured-image-preview"
   src: "twitch.jpg"
+
+summary: 關於專業飼養員波利的各種名言事蹟
 
 tags: ["Twitch", "亂源"]
 categories: ["Twitch"]
@@ -14,7 +17,6 @@ categories: ["Twitch"]
 lightgallery: true
 ---
 
-關於專業飼養員波利的各種名言事蹟
 
 <!--more-->
 
