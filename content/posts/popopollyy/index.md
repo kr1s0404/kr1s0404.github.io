@@ -1,7 +1,7 @@
 ---
 weight: 1
 title: "popopollyy"
-date: 2021-09-05T11:48:01+08:00
+date: 2021-09-15T11:48:01+08:00
 draft: false
 author: Kr1s
 
@@ -43,6 +43,12 @@ lightgallery: true
 ### 驚！POZ被前男友拋棄了
 
 {{< image src = "poz_nolove.png" caption = "驚！POZ被前男友拋棄了" >}}
+
+---
+
+### POZ的國文是體育老師教的
+
+{{< image src = "poz_chinesesucks.png" caption = "POZ的國文是體育老師教的" >}}
 
 ---
 
