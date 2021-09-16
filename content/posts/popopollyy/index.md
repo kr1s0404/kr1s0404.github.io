@@ -9,7 +9,7 @@ resources:
 - name: "featured-image-preview"
   src: "twitch.jpg"
 
-summary: 關於專業飼養員波利的各種名言事蹟
+description: 關於專業飼養員波利的各種名言事蹟
 
 tags: ["Twitch", "亂源"]
 categories: ["Twitch"]
