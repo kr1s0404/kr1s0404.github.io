@@ -59,10 +59,22 @@ lightgallery: true
 
 ---
 
+### 大優惠
+{{< youtube wSLWoS1PIE >}}
+
+---
+
 ## 有關於POZ的梗圖
 
 ### 老波寶都要習慣的事 
 
 {{< image src = "poz_fanTrash.png" caption = "波寶都被丟到垃圾桶了" >}}
+
+---
+
+## 精彩剪輯
+
+### POZ嗆隨花洛是不會做事的MOD
+{{< youtube W6d2gBndGZg >}}
 
 ---
