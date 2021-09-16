@@ -60,7 +60,7 @@ lightgallery: true
 ---
 
 ### 大優惠
-{{< youtube wSLWoS1PIE >}}
+{{< youtube _wSLWoS1PIE >}}
 
 ---
 
