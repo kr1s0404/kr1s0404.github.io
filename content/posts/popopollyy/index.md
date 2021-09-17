@@ -52,6 +52,12 @@ lightgallery: true
 
 ---
 
+### POZ跟海研：友誼的小船，說翻就翻
+
+{{< image src = "poz_notFwSalt.png" caption = "友誼的小船，說翻就翻" >}}
+
+---
+
 ## 波利的美妙歌聲
 
 ### 要愛愛
