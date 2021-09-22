@@ -7,7 +7,7 @@ author: Kr1s
 
 resources:
 - name: "featured-image-preview"
-  src: "niu_preview.jpg"
+  src: "niu_preview.png"
 
 description: 關於專業飼養員波利的各種名言事蹟
 
@@ -27,10 +27,17 @@ lightgallery: true
 {{< /admonition >}}
  
 --- 
+
 ## 精彩音檔
 ### 這邊先聽一段主播的親親
 
 {{< music url = "niu_kiss.mp3" name = Kiss artist = niuniuR030 cover = "niu_pic.png" >}}
 
+
+---
+
+### 妞妞的要愛愛
+
+{{< youtube 5WI2CpF-U5w >}}
 
 ---
