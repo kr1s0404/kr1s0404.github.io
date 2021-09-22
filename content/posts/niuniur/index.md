@@ -30,7 +30,7 @@ lightgallery: true
 ## 精彩音檔
 ### 這邊先聽一段主播的親親
 
-{{< music url = "niu_kiss.mov" name = Kiss <3 artist = niuniuR030 cover = "niu_pic.png" >}}
+
 
 
 ---
