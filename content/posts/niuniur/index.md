@@ -1,5 +1,5 @@
 ---
-weight: 2
+weight: 0
 title: "niuniur"
 date: 2021-09-22T11:48:01+08:00
 draft: false
@@ -9,7 +9,7 @@ resources:
 - name: "featured-image-preview"
   src: "niu_preview.png"
 
-description: 關於專業飼養員波利的各種名言事蹟
+description: 關於妞妞兒的各種名言事蹟
 
 tags: ["Twitch", "亂源"]
 categories: ["Twitch"]
