@@ -36,8 +36,15 @@ lightgallery: true
 
 ---
 
+## 各種Twitch剪輯
 ### 妞妞的要愛愛
 
 {{< youtube 5WI2CpF-U5w >}}
 
 ---
+
+### 原來妞妞是開變聲器的肥宅 😨
+{{< youtube 4rWB_Iv2dx0 >}}
+
+---
+
