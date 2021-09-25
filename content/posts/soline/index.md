@@ -37,7 +37,7 @@ lightgallery: true
 ## 搞氣氛剪輯
 
 ### 主播爆噴隊友：耖你媽的勒
-{{< youtube Ow37aEfesWA >}
+{{< youtube Ow37aEfesWA >}}
 
 --- 
 ## WML專用剪輯
