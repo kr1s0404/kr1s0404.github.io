@@ -25,7 +25,20 @@ lightgallery: true
 {{< admonition type = tip title = "點開來看" open = false >}}
 開開玩笑，做作效果，不要那麼火爆
 {{< /admonition >}}
- 
+
+--- 
+
+## 精彩音檔
+### 安赫敏自肥用音檔
+
+{{< music url = "soline_opa.mp3" name = Kiss artist = soline0514 cover = "soline_pic.png" >}}
+
+---
+## 搞氣氛剪輯
+
+### 主播爆噴隊友：耖你媽的勒
+{{< youtube Ow37aEfesWA >}
+
 --- 
 ## WML專用剪輯
 
