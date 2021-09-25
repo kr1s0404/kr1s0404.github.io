@@ -31,6 +31,6 @@ lightgallery: true
 ## 精彩音檔
 ### 其實這台主是之貓，不信你聽
 
-{{< music url = "nero_meow.mp3" name = meow artist = Nero_412 cover = "nero_pic.png" >}}
+{{< music url = "nero_cat.mp3" name = meow artist = Nero_412 cover = "nero_pic.png" >}}
 
 ---
