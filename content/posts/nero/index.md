@@ -33,4 +33,11 @@ lightgallery: true
 
 {{< music url = "nero_cat.mp3" name = meow artist = Nero_412 cover = "nero_pic.png" >}}
 
+--- 
+
+## 尼主播爆噴環節
+### 隊友是在吵什麼雞掰？幹你娘勒
+
+{{< youtube K18StNkqZZ4 >}}
+
 ---
