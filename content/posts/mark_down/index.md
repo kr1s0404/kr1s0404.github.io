@@ -1,21 +1,4 @@
----
-weight: 0
-title: "TEST"
-date: 2021-09-07T11:48:01+08:00
-draft: true
-author: Kr1s
-resources:
-- name: "featured-image-preview"
-  src: "featured-image.png"
+文字稿已經隨著投影片附註在下方
 
-tags: ["Markdown", "HTML"]
-categories: ["Markdown"]
-
-lightgallery: true
----
-
-{{< admonition >}}
-
-123
-
-{{< admonition >}}
+而影片的最後一部分沒有調整好簡報，導致簡報放到最後一張時他自己結束縮小
+這個之後會再調整。

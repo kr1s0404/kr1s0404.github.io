@@ -9,7 +9,7 @@ resources:
 - name: "featured-image-preview"
   src: "niu_preview.png"
 
-description: 關於妞妞兒的各種名言事蹟
+description: 關於肆妞妞兒的各種名言事蹟
 
 tags: ["Twitch", "亂源"]
 categories: ["Twitch"]
