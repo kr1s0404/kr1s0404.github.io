@@ -31,7 +31,7 @@ lightgallery: true
 ## 精彩音檔
 ### 安赫敏自肥用音檔
 
-{{< music url = "soline_opa.mp3" name = Kiss artist = soline0514 cover = "soline_pic.png" >}}
+{{< music url = "soline_opa.mp3" name = opa artist = soline0514 cover = "soline_pic.png" >}}
 
 ---
 ## 搞氣氛剪輯
@@ -42,7 +42,7 @@ lightgallery: true
 --- 
 ## WML專用剪輯
 
-### 慕年年的色情叫聲 ><
+### 慕年年的色情叫聲 😈
 {{< youtube 7zb35xMGlzw >}}
 
 ---
