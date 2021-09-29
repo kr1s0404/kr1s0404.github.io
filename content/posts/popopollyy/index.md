@@ -34,6 +34,12 @@ lightgallery: true
 
 ---
 
+### 記住，我們都是被主播丟棄的廢物
+
+{{< image src = "poz_trashcan.png" caption = "記住，我們都是被主播丟棄的廢物" >}}
+
+---
+
 ### 海研趁POZ不在的時候偷嘴
 
 {{< image src = "poz_suck.png" caption = "海研趁POZ不在的時候偷嘴" >}}
@@ -55,6 +61,18 @@ lightgallery: true
 ### POZ跟海研：友誼的小船，說翻就翻
 
 {{< image src = "poz_notFwSalt.png" caption = "友誼的小船，說翻就翻" >}}
+
+---
+
+### 老波寶QQ 
+
+{{< image src = "poz_oldfans.png" caption = "老波寶QQ" >}}
+
+---
+
+### M大嗆POZ還好場上沒他，不然會掉分 
+
+{{< image src = "poz_M.png" caption = "M大嗆POZ" >}}
 
 ---
 
