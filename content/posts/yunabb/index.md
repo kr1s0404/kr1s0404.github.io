@@ -47,3 +47,9 @@ lightgallery: true
 {{< music url = "yuna_curry.mp3" name = 好臭啊  artist = yunabb cover = "yuna_pic.png" >}}
 
 ---
+
+### yuna 要愛愛（期待有音檔）
+
+{{< image src = "yuna_lovelove.png" caption = "我在等音檔" >}}
+
+---
