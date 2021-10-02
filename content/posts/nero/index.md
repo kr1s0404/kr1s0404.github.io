@@ -41,6 +41,12 @@ lightgallery: true
 
 --- 
 
+### 安赫敏暈船專用音檔
+
+{{< music url = "nero_kris.mp3" name = 超級暈 artist = Nero_412 cover = "nero_pic.png" >}}
+
+--- 
+
 ## 尼主播爆噴環節
 ### 隊友是在吵什麼雞掰？幹你娘勒
 
