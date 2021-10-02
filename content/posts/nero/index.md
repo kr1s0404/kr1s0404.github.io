@@ -35,6 +35,12 @@ lightgallery: true
 
 --- 
 
+### 是虛暈船專用音檔
+
+{{< music url = "nero_shin.mp3" name = 就很暈 artist = Nero_412 cover = "nero_pic.png" >}}
+
+--- 
+
 ## 尼主播爆噴環節
 ### 隊友是在吵什麼雞掰？幹你娘勒
 
