@@ -9,7 +9,7 @@ resources:
 - name: "featured-image-preview"
   src: "yuna_preview.png"
 
-description: 關於慕年年的各種名言事蹟
+description: 關於yuna的各種名言事蹟
 
 tags: ["Twitch", "亂源"]
 categories: ["Twitch"]
@@ -48,6 +48,7 @@ lightgallery: true
 
 ---
 
+## 在Twitch聊天室裡的yuna
 ### yuna 要愛愛（期待有音檔）
 
 {{< image src = "yuna_lovelove.png" caption = "我在等音檔" >}}
