@@ -26,8 +26,15 @@ lightgallery: true
 開開玩笑，做作效果，不要那麼火爆
 {{< /admonition >}}
  
---- 
+---  
 ## 各種聊天室
+
+### 我跟波利永遠不共 zz
+
+{{< image src = "poz_nothello.png" caption = "安安主播晚上好" >}}
+
+---
+
 ### APEX 0傷害的POZ
 
 {{< image src = "poz_strong.png" caption = "APEX 0傷害的POZ" >}}
@@ -64,6 +71,12 @@ lightgallery: true
 
 ---
 
+### 如何當個好波寶
+
+{{< image src = "poz_goodfans.png" caption = "如何當個好波寶" >}}
+
+---
+
 ### 老波寶QQ 
 
 {{< image src = "poz_oldfans.png" caption = "老波寶QQ" >}}
@@ -73,6 +86,12 @@ lightgallery: true
 ### M大嗆POZ還好場上沒他，不然會掉分 
 
 {{< image src = "poz_M.png" caption = "M大嗆POZ" >}}
+
+---
+
+### 最討厭名單：安赫敏
+
+{{< image src = "poz_hatelist.png" caption = "當抖Ｍ真爽" >}}
 
 ---
 
