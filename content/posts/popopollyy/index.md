@@ -22,6 +22,12 @@ lightgallery: true
 
 ~~跟大家介紹一下，這是我老婆波利~~
 
+### 😍
+
+{{< image src = "poz_wife.png" caption = "安赫敏的老婆" >}}
+
+---
+
 {{< admonition type = tip title = "愛妳喔" open = false >}}
 開開玩笑，做作效果，不要那麼火爆
 {{< /admonition >}}
