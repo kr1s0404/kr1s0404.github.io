@@ -18,7 +18,7 @@ lightgallery: true
 
 <!--more-->
 
-~~跟大家介紹一下，這是我老婆尼祿~~
+
 
 {{< admonition type = tip title = "點一下" open = false >}}
 https://drive.google.com/drive/u/2/folders/1M7Y3PKy1N730GvfK_-GlYdMFUePAT2RI
