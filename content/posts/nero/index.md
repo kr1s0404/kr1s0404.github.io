@@ -47,6 +47,12 @@ lightgallery: true
 
 --- 
 
+### 安赫敏你這個雜種
+
+{{< music url = "nero_krisDog.mp3" name = 雜種 artist = Nero_412 cover = "nero_pic.png" >}}
+
+--- 
+
 ## 尼主播爆噴環節
 ### 隊友是在吵什麼雞掰？幹你娘勒
 
