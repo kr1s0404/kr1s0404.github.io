@@ -34,3 +34,9 @@ lightgallery: true
 {{< music url = "mini_r.mp3" name = RRRRR artist = Miniyume0105 cover = "mini_pic.png" >}}
 
 --- 
+
+### 放送事故，裝嗲結果...
+
+{{< music url = "mini_whosay.mp3" name = sweet artist = Miniyume0105 cover = "mini_pic.png" >}}
+
+--- 
