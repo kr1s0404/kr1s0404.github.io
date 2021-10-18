@@ -7,7 +7,7 @@ author: Kr1s
 
 resources:
 - name: "featured-image-preview"
-  src: "ios_preview.png"
+  src: "ios_preview.jpeg"
 
 description: 社課簡報網址
 
