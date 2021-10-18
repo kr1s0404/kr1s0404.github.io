@@ -5,7 +5,9 @@ date: 2021-10-12T11:48:01+08:00
 draft: false
 author: Kr1s
 
-
+resources:
+- name: "featured-image-preview"
+  src: "ios_preview.png"
 
 description: 社課簡報網址
 
