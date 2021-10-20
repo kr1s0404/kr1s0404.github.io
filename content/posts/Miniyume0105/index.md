@@ -32,6 +32,7 @@ lightgallery: true
 ### 夢主播高潮
 
 {{< music url = "mini_r.mp3" name = RRRRR artist = Miniyume0105 cover = "mini_pic.png" >}}
+{{< music url = "mini_r2.mp3" name = RRRRR artist = Miniyume0105 cover = "mini_pic.png" >}}
 
 --- 
 
