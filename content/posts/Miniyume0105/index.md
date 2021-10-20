@@ -42,12 +42,6 @@ lightgallery: true
 
 --- 
 
-### 抖S專用音檔 😈
-
-{{< music url = "mini_forS.mp3" name = SM artist = Miniyume0105 cover = "mini_pic.png" >}}
-
---- 
-
 ### 放送事故，裝嗲結果...
 
 {{< music url = "mini_whosay.mp3" name = sweet artist = Miniyume0105 cover = "mini_pic.png" >}}
@@ -57,5 +51,11 @@ lightgallery: true
 ### 夢主播超可愛打噴嚏音檔流出
 
 {{< music url = "mini_sneeze.mp3" name = 🤧 artist = Miniyume0105 cover = "mini_pic.png" >}}
+
+--- 
+
+### 抖S專用音檔 😈
+
+{{< music url = "mini_forS.mp3" name = SM artist = Miniyume0105 cover = "mini_pic.png" >}}
 
 --- 
