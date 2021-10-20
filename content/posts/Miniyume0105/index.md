@@ -32,7 +32,7 @@ lightgallery: true
 ### 夢主播高潮
 
 {{< music url = "mini_r.mp3" name = RRRRR artist = Miniyume0105 cover = "mini_pic.png" >}}
-{{< music url = "mini_r2.mp3" name = RRRRR artist = Miniyume0105 cover = "mini_pic.png" >}}
+{{< music url = "mini_r2.mp3" name = 我沒了 artist = Miniyume0105 cover = "mini_pic.png" >}}
 
 --- 
 
@@ -46,5 +46,11 @@ lightgallery: true
 ### 放送事故，裝嗲結果...
 
 {{< music url = "mini_whosay.mp3" name = sweet artist = Miniyume0105 cover = "mini_pic.png" >}}
+
+--- 
+
+### 夢主播超可愛打噴嚏音檔流出
+
+{{< music url = "mini_sneeze.mp3" name = 🤧 artist = Miniyume0105 cover = "mini_pic.png" >}}
 
 --- 
