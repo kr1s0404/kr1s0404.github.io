@@ -36,10 +36,15 @@ lightgallery: true
 
 --- 
 
-
 ### 暈船專用音檔 🥰
 
 {{< music url = "mini_loveyou.mp3" name = LoveYou artist = Miniyume0105 cover = "mini_pic.png" >}}
+
+--- 
+
+### 抖S專用音檔 😈
+
+{{< music url = "mini_forS.mp3" name = SM artist = Miniyume0105 cover = "mini_pic.png" >}}
 
 --- 
 
