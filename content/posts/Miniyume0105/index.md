@@ -59,3 +59,16 @@ lightgallery: true
 {{< music url = "mini_forS.mp3" name = SM artist = Miniyume0105 cover = "mini_pic.png" >}}
 
 --- 
+
+### 哭哭
+
+{{< music url = "mini_cry.mp3" name = 🥲 artist = Miniyume0105 cover = "mini_pic.png" >}}
+
+--- 
+
+
+### 安赫敏暈船專用音檔
+
+{{< music url = "mini_krisDog.mp3" name = 🐶 artist = Miniyume0105 cover = "mini_pic.png" >}}
+
+--- 
