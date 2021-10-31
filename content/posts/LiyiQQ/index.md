@@ -41,3 +41,9 @@ lightgallery: true
 {{< image src = "liyi_love.png" caption = "我好暈" >}}
 
 ---
+
+### 安赫敏的大愛心 💖
+{{< youtube 6S7YgJqrUE4 >}}
+
+---
+
