@@ -33,8 +33,6 @@ lightgallery: true
 
 {{< music url = "liyi_no.mp3" name = 人家不要 artist = LiyiQQ cover = "liyi_pic.png" >}}
 
-### 李翊的真實聲音👍🏻 (記得把聲音轉小一點..)
-{{< youtube 3kvoCaeqA4w >}}
 --- 
 
 ## 暈船專區
