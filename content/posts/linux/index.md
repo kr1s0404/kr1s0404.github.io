@@ -28,4 +28,11 @@ lightgallery: true
 
 --- 
 
+### 如附圖所示，該Script存放在~/bin目錄之下，然後使用者在家目錄內執行Script。請問當Script結束後，使用者的工作目錄會在下列哪一項？
+
+(A) ~/
+(B) ~/bin
+(C) /tmp
+(D) /
+
 ---
