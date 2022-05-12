@@ -62,6 +62,17 @@ lightgallery: true
 
 **答案：(C)**
 
+- (A) archive
+  > 好像沒有這個指令
+- (B) cpio
+  > cpio命令是一個歸檔程序，它將一列文件複製到一個單一的、大的輸出文件。這個命令在各個文件之間插入了標題，以方便恢復。
+- (C) dump
+  > dump命令是Unix和類Unix操作系統上的一個程序，用於備份文件系統。它對塊進行操作，低於文件系統的抽象概念，如文件和目錄。 Dump可以將文件系統備份到磁帶或其他磁盤。它經常在網絡上使用，通過bzip2和SSH將其輸出管道化。
+- (D) tar
+  > Linux中的 "tar "代表磁帶歸檔，用於創建歸檔文件和提取歸檔文件。 Linux中的tar命令是Linux中提供歸檔功能的重要命令之一。我們可以使用Linux的tar命令來創建壓縮或未壓縮的歸檔文件，也可以維護和修改它們。  
+
+  `` tar [options] [archive-file] [file or directory to be archived] ``
+
 
 ---
 
