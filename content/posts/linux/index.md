@@ -1,18 +1,18 @@
 ---
-weight: 4
-title: "Nero_412"
-date: 2021-09-25T11:48:01+08:00
+weight: 1
+title: "TQC Linux系統管理詳解"
+date: 2022-05-10T11:48:01+08:00
 draft: false
 author: Kr1s
 
 resources:
 - name: "featured-image-preview"
-  src: "nero_preview.png"
+  src: "linux_preview.png"
 
-description: 關於尼祿ちゃん的各種名言事蹟
+description: TQC Linux系統管理詳解
 
-tags: ["Twitch", "亂源"]
-categories: ["Twitch"]
+tags: ["TQC", "Linux"]
+categories: ["IECS"]
 
 lightgallery: true
 ---
