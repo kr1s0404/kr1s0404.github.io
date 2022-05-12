@@ -34,5 +34,5 @@ lightgallery: true
 (B) ~/bin
 (C) /tmp
 (D) /
-
+**答案：(A)**
 ---
