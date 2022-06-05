@@ -28,7 +28,7 @@ lightgallery: true
 
 --- 
 
-### 安裝指令
+## 安裝指令
 
 {{< image src = "install.jpg" caption = "安裝指令" >}}
 
@@ -38,7 +38,7 @@ sudo apt-get install transmission-daemon
 
 ---
 
-### 建立資料夾指令
+## 建立資料夾指令
 
 接著建立下載目錄，一個是下載完成的目錄  
 一個是未完成的目錄，具體目錄根據你的情況決定：  
@@ -53,7 +53,7 @@ mkdir /home/pi/complete # 下載完成的目錄
 ---
 
 
-### 修改目錄權限
+## 修改目錄權限
 
 接著建立下載目錄，一個是下載完成的目錄
 一個是未完成的目錄，具體目錄根據你的情況決定：
@@ -72,17 +72,18 @@ sudo chmod 770 /home/pi/complete
 ---
 
 
-### 修改配置文件
+## 修改配置文件
 
-> 如果不知道如何修改JSON文件的話，可以用以下指令
+## 如果不知道如何修改JSON文件的話，可以用以下指令
 {{< image src = "nano.jpg" caption = "修改JSON文件" >}}
 
 ```shell
 sudo nano /etc/transmission-daemon/settings.json
 ```
 
-> nano是個好用的工具，跟vim很像
+> nano是個好用的工具，跟vim很像  
 
+---
 
 修改配置文件 /etc/transmission-daemon/settings.json  
 這是一個 json 格式的文件，配置項很多，但主要改下面這些：  
@@ -98,7 +99,7 @@ sudo nano /etc/transmission-daemon/settings.json
 "rpc-whitelist": "你樹莓派的IP位置（例如192.168.1.*）",
 ```
 
-> 如果不知道自己的樹莓派IP，可以用以下指令查看喔～
+## 如果不知道自己的樹莓派IP，可以用以下指令查看
 {{< image src = "checkip.jpg" caption = "查看IP" >}}
 
 ```shell
