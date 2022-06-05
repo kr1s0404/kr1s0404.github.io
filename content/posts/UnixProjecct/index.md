@@ -78,6 +78,7 @@ sudo chmod 770 /home/pi/complete
 這是一個 json 格式的文件，配置項很多，但主要改下面這些：  
 
 {{< image src = "json.jpg" caption = "修改配置文件" >}}
+{{< image src = "json2.jpg" caption = "修改配置文件" >}}
 
 ```json
 "download-dir": "/home/pi/complete",
