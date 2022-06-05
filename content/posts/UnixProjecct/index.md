@@ -60,7 +60,7 @@ mkdir /home/pi/complete # finished downloads
 
 {{< image src = "mkdir.jpg" caption = "修改目錄權限" >}}
 
-```shell
+```bash
 sudo usermod -a -G debian-transmission pi
 chgrp debian-transmission /home/pi/incomplete
 chgrp debian-transmission /home/pi/complete
