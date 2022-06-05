@@ -58,7 +58,7 @@ mkdir /home/pi/complete # finished downloads
 接著建立下載目錄，一個是下載完成的目錄
 一個是未完成的目錄，具體目錄根據你的情況決定：
 
-{{< image src = "mkdir.jpg" caption = "建立資料夾指令" >}}
+{{< image src = "mkdir.jpg" caption = "修改目錄權限" >}}
 
 ```shell
 sudo usermod -a -G debian-transmission pi
@@ -66,6 +66,25 @@ chgrp debian-transmission /home/pi/incomplete
 chgrp debian-transmission /home/pi/complete
 chmod 770 /home/pi/incomplete
 chmod 770 /home/pi/complete
+```
+
+---
+
+
+### 修改配置文件
+
+修改配置文件 /etc/transmission-daemon/settings.json
+這是一個 json 格式的文件，配置項很多，但主要改下面這些：
+下載目錄位置：
+
+{{< image src = "json.jpg" caption = "修改配置文件" >}}
+
+```json
+"download-dir": "/home/pi/complete",
+未完成的下载目录
+"incomplete-dir": "/home/pi/incomplete",
+允许Web访问的白名单地址
+"rpc-whitelist": "192.168.1.*",
 ```
 
 ---
