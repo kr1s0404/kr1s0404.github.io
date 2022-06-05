@@ -74,6 +74,16 @@ sudo chmod 770 /home/pi/complete
 
 ### 修改配置文件
 
+> 如果不知道如何修改JSON文件的話，可以用以下指令
+{{< image src = "nano.jpg" caption = "修改JSON文件" >}}
+
+```shell
+sudo nano /etc/transmission-daemon/settings.json
+```
+
+> nano是個好用的工具，跟vim很像
+
+
 修改配置文件 /etc/transmission-daemon/settings.json  
 這是一個 json 格式的文件，配置項很多，但主要改下面這些：  
 
