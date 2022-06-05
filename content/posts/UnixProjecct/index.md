@@ -37,3 +37,17 @@ sudo apt-get install transmission-daemon
 ```
 
 ---
+
+### 安裝指令
+
+接著建立下載目錄，一個是下載完成的目錄
+一個是未完成的目錄，具體目錄根據你的情況決定：
+
+{{< image src = "mkdir.jpg" caption = "建立資料夾指令" >}}
+
+``` shell
+mkdir -p /home/pi/incomplete # for incomplete downloads
+mkdir /home/pi/complete # finished downloads
+```
+
+---
