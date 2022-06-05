@@ -81,9 +81,9 @@ chmod 770 /home/pi/complete
 
 ```json
 "download-dir": "/home/pi/complete",
-未完成的下载目录
+未完成的下載目錄
 "incomplete-dir": "/home/pi/incomplete",
-允许Web访问的白名单地址
+允許Web訪問的白名單地址
 "rpc-whitelist": "你樹莓派的IP位置（例如192.168.1.*）",
 ```
 
@@ -101,5 +101,19 @@ chmod 770 /home/pi/complete
 sudo service transmission-daemon reload
 sudo service transmission-daemon restart
 ```
+
+---
+
+
+### 連上伺服器
+
+在瀏覽器中輸入 IP 加 PORT: 9091
+比如： http://192.168.1.3:9091/ 
+進入時輸入帳號和密碼，默認都是：transmission 。
+你現在已經有了一個獨立的 BT 下載伺服器了！
+界面功能完善，可以做限速等設置。
+
+{{< image src = "login.jpg" caption = "重啟 transmission" >}}
+
 
 ---
