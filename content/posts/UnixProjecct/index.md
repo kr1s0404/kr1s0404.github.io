@@ -74,7 +74,7 @@ sudo chmod 770 /home/pi/complete
 
 ## 修改配置文件
 
-## 如果不知道如何修改JSON文件的話，可以用以下指令
+### 如果不知道如何修改JSON文件的話，可以用以下指令
 {{< image src = "nano.jpg" caption = "修改JSON文件" >}}
 
 ```shell
@@ -99,7 +99,7 @@ sudo nano /etc/transmission-daemon/settings.json
 "rpc-whitelist": "你樹莓派的IP位置（例如192.168.1.*）",
 ```
 
-## 如果不知道自己的樹莓派IP，可以用以下指令查看
+### 如果不知道自己的樹莓派IP，可以用以下指令查看
 {{< image src = "checkip.jpg" caption = "查看IP" >}}
 
 ```shell
@@ -109,7 +109,7 @@ ifcongfig -a
 ---
 
 
-### 重啟 transmission
+## 重啟 transmission
 
 最後，配置好之後重啟 transmission
 注意以下兩個命令按順序執行，單獨 restart 的話配置不會保存：
@@ -124,7 +124,7 @@ sudo service transmission-daemon restart
 ---
 
 
-### 連上伺服器
+## 連上伺服器
 
 在瀏覽器中輸入 IP 加 PORT: 9091  
 比如： http://192.168.1.3:9091/   
@@ -138,7 +138,7 @@ sudo service transmission-daemon restart
 ---
 
 
-### 下載畫面
+## 下載畫面
 
 外出或睡覺的時候就不用開著電腦下載了，而且更省電。
 
