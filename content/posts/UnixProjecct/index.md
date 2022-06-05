@@ -28,6 +28,12 @@ lightgallery: true
 
 --- 
 
+### 安裝指令
 
+{{< image src = "install.jpg" caption = "安裝指令" >}}
+
+``` 
+sudo apt-get install transmission-daemon
+```
 
 ---
