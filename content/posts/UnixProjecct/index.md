@@ -88,3 +88,18 @@ chmod 770 /home/pi/complete
 ```
 
 ---
+
+
+### 重啟 transmission
+
+最後，配置好之後重啟 transmission
+注意以下兩個命令按順序執行，單獨 restart 的話配置不會保存：
+
+{{< image src = "restart.jpg" caption = "重啟 transmission" >}}
+
+```bash
+sudo service transmission-daemon reload
+sudo service transmission-daemon restart
+```
+
+---
