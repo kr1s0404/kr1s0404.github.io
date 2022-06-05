@@ -113,7 +113,17 @@ sudo service transmission-daemon restart
 你現在已經有了一個獨立的 BT 下載伺服器了！
 界面功能完善，可以做限速等設置。
 
-{{< image src = "login.jpg" caption = "重啟 transmission" >}}
+{{< image src = "login.jpg" caption = "連上伺服器" >}}
+
+
+---
+
+
+### 下載畫面
+
+外出或睡覺的時候就不用開著電腦下載了，而且更省電。
+
+{{< image src = "download.jpg" caption = "下載畫面" >}}
 
 
 ---
