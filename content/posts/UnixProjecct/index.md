@@ -40,8 +40,8 @@ sudo apt-get install transmission-daemon
 
 ### 建立資料夾指令
 
-接著建立下載目錄，一個是下載完成的目錄
-一個是未完成的目錄，具體目錄根據你的情況決定：
+接著建立下載目錄，一個是下載完成的目錄  
+一個是未完成的目錄，具體目錄根據你的情況決定：  
 
 {{< image src = "mkdir.jpg" caption = "建立資料夾指令" >}}
 
@@ -73,9 +73,8 @@ chmod 770 /home/pi/complete
 
 ### 修改配置文件
 
-修改配置文件 /etc/transmission-daemon/settings.json
-這是一個 json 格式的文件，配置項很多，但主要改下面這些：
-下載目錄位置：
+修改配置文件 /etc/transmission-daemon/settings.json  
+這是一個 json 格式的文件，配置項很多，但主要改下面這些：  
 
 {{< image src = "json.jpg" caption = "修改配置文件" >}}
 
@@ -107,10 +106,10 @@ sudo service transmission-daemon restart
 
 ### 連上伺服器
 
-在瀏覽器中輸入 IP 加 PORT: 9091
-比如： http://192.168.1.3:9091/ 
-進入時輸入帳號和密碼，默認都是：transmission 。
-你現在已經有了一個獨立的 BT 下載伺服器了！
+在瀏覽器中輸入 IP 加 PORT: 9091  
+比如： http://192.168.1.3:9091/   
+進入時輸入帳號和密碼，默認都是：transmission 。  
+你現在已經有了一個獨立的 BT 下載伺服器了！  
 界面功能完善，可以做限速等設置。
 
 {{< image src = "login.jpg" caption = "連上伺服器" >}}
@@ -123,7 +122,7 @@ sudo service transmission-daemon restart
 
 外出或睡覺的時候就不用開著電腦下載了，而且更省電。
 
-{{< image src = "download.jpg" caption = "下載畫面" >}}
+{{< image src = "download.png" caption = "下載畫面" >}}
 
 
 ---
