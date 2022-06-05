@@ -60,7 +60,7 @@ mkdir /home/pi/complete # finished downloads
 
 {{< image src = "mkdir.jpg" caption = "修改目錄權限" >}}
 
-```bash
+```shell
 sudo usermod -a -G debian-transmission pi
 chgrp debian-transmission /home/pi/incomplete
 chgrp debian-transmission /home/pi/complete
@@ -97,7 +97,7 @@ chmod 770 /home/pi/complete
 
 {{< image src = "restart.jpg" caption = "重啟 transmission" >}}
 
-```bash
+```shell
 sudo service transmission-daemon reload
 sudo service transmission-daemon restart
 ```
