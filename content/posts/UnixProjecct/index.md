@@ -1,17 +1,17 @@
 ---
 weight: 1
-title: "TQC Linux系統管理詳解"
-date: 2022-05-10T11:48:01+08:00
+title: "UNIX應用與實務 期末專題"
+date: 2022-06-05T14:22:01+08:00
 draft: false
-author: Kr1s
+author: 余睿霖、王昱智、王子杰
 
 resources:
 - name: "featured-image-preview"
   src: "UnixProject_preview.png"
 
-description: TQC Linux系統管理詳解
+description: 用樹莓派搭建BT下載伺服器
 
-tags: ["TQC", "Linux"]
+tags: ["Unix", "Linux", "Demo", "BT"]
 categories: ["IECS"]
 
 lightgallery: true
