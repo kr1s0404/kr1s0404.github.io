@@ -58,7 +58,7 @@ mkdir /home/pi/complete # finished downloads
 接著建立下載目錄，一個是下載完成的目錄
 一個是未完成的目錄，具體目錄根據你的情況決定：
 
-{{< image src = "mkdir.jpg" caption = "修改目錄權限" >}}
+{{< image src = "mod.jpg" caption = "修改目錄權限" >}}
 
 ```shell
 sudo usermod -a -G debian-transmission pi
