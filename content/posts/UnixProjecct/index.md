@@ -84,7 +84,7 @@ chmod 770 /home/pi/complete
 未完成的下载目录
 "incomplete-dir": "/home/pi/incomplete",
 允许Web访问的白名单地址
-"rpc-whitelist": "192.168.1.*",
+"rpc-whitelist": "你樹莓派的IP位置（例如192.168.1.*）",
 ```
 
 ---
