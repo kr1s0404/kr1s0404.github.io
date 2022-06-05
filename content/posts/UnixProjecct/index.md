@@ -46,8 +46,8 @@ sudo apt-get install transmission-daemon
 {{< image src = "mkdir.jpg" caption = "建立資料夾指令" >}}
 
 ```shell
-mkdir -p /home/pi/incomplete # for incomplete downloads
-mkdir /home/pi/complete # finished downloads
+mkdir -p /home/pi/incomplete # 未完成的目錄
+mkdir /home/pi/complete # 下載完成的目錄
 ```
 
 ---
@@ -62,10 +62,11 @@ mkdir /home/pi/complete # finished downloads
 
 ```shell
 sudo usermod -a -G debian-transmission pi
-chgrp debian-transmission /home/pi/incomplete
-chgrp debian-transmission /home/pi/complete
-chmod 770 /home/pi/incomplete
-chmod 770 /home/pi/complete
+sudo chgrp debian-transmission /home/pi/incomplete
+sudo chgrp debian-transmission /home/pi/complete
+sudo chmod 770 /home/pi/incomplete
+sudo chmod 770 /home/pi/complete
+##記得加sudo
 ```
 
 ---
