@@ -32,7 +32,7 @@ lightgallery: true
 
 {{< image src = "install.jpg" caption = "安裝指令" >}}
 
-``` shell
+```console
 sudo apt-get install transmission-daemon
 ```
 
@@ -45,7 +45,7 @@ sudo apt-get install transmission-daemon
 
 {{< image src = "mkdir.jpg" caption = "建立資料夾指令" >}}
 
-``` shell
+```console
 mkdir -p /home/pi/incomplete # for incomplete downloads
 mkdir /home/pi/complete # finished downloads
 ```
