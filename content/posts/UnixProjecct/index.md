@@ -88,6 +88,13 @@ sudo chmod 770 /home/pi/complete
 "rpc-whitelist": "你樹莓派的IP位置（例如192.168.1.*）",
 ```
 
+> 如果不知道自己的樹莓派IP，可以用以下指令查看喔～
+{{< image src = "checkip.jpg" caption = "查看IP" >}}
+
+```shell
+ifcongfig -a
+```
+
 ---
 
 
