@@ -22,8 +22,10 @@ lightgallery: true
 
 **用樹莓派建立BT下載伺服器**
 
-{{< admonition type = tip title = "組員" open = false >}}
-余睿霖、王昱智、王子杰
+{{< admonition type = tip title = "組員" open = false >}}  
+資訊二乙 余睿霖 D0977669  
+資訊二乙 王昱智 D0987439  
+資訊二乙 王子杰 D0973723  
 {{< /admonition >}}
 
 --- 
