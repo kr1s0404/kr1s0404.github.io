@@ -7,7 +7,7 @@ author: Kr1s
 
 resources:
 - name: "featured-image-preview"
-  src: "linux_preview.png"
+  src: "UnixProject_preview.png"
 
 description: TQC Linux系統管理詳解
 
