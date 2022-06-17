@@ -9,7 +9,7 @@ resources:
 - name: "featured-image-preview"
   src: "linuxFinalReport_preview.png"
 
-description: TQC Linux系統管理詳解
+description: 課程心得報告
 
 tags: ["Linux", "Report"]
 categories: ["IECS"]
