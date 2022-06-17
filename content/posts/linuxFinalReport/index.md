@@ -1,17 +1,17 @@
 ---
 weight: 1
-title: "TQC Linux系統管理詳解"
+title: "1102 UNIX應用與實務(資訊二甲)[1245] 課程心得報告"
 date: 2022-05-10T11:48:01+08:00
 draft: false
 author: Kr1s
 
 resources:
 - name: "featured-image-preview"
-  src: "linux_preview.png"
+  src: "linuxFinalReport_preview.png"
 
 description: TQC Linux系統管理詳解
 
-tags: ["TQC", "Linux"]
+tags: ["Linux", "Report"]
 categories: ["IECS"]
 
 lightgallery: true
