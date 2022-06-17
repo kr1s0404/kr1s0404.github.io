@@ -17,6 +17,7 @@ categories: ["IECS"]
 lightgallery: true
 ---
 
+<!--more-->
 
 ## D0977669 資訊二乙 余睿霖
 
