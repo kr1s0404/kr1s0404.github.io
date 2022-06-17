@@ -1,13 +1,13 @@
 ---
 weight: 1
 title: "1102 UNIX應用與實務(資訊二甲)[1245] 課程心得報告"
-date: 2022-05-10T11:48:01+08:00
+date: 2022-06-16T11:48:01+08:00
 draft: false
 author: Kr1s
 
 resources:
 - name: "featured-image-preview"
-  src: "linuxFinalReport_preview.png"
+  src: "linuxFinalReport_preview.jpg"
 
 description: 課程心得報告
 
