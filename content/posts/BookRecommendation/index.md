@@ -35,6 +35,7 @@ lightgallery: true
 
 > 這是一份由 SensorTower 在2022年十月所發布的一份報告。他們在此文章中提到App在App Store、Goolge Play Store 中的收入。在大大的標題上我們可以看到全球的App在2022的第三季成長了百分之三十二。而在此篇文章中，他們分析了各種面向的App，以及他們給出了一些詳細資料、數據。
 
+[前往查看文章](https://sensortower.com/blog/app-revenue-and-downloads-q3-2020)
 
 ---
 
