@@ -1,13 +1,13 @@
 ---
 weight: 1
 title: "1111 軟體工程開發實務 文章推薦"
-date: 2022-06-22T11:48:01+08:00
+date: 2022-09-20T11:48:01+08:00
 draft: false
 author: Kr1s
 
 resources:
 - name: "featured-image-preview"
-  src: "book_preview.jpg"
+  src: "Book_preview.jpg"
 
 description: 本次作業，請找一個你感興趣的【軟體工程】相關的文章/書，開始做功課，研究它的內容，跟其他有什麼不同，同時思考要怎麼介紹這本給你的潛在讀者，最後拍一分鐘的影片來介紹你的文章/書。
 
