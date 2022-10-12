@@ -75,6 +75,22 @@ lightgallery: true
 
 ## 用 vue3 寫一個 hello world 需要那些程式碼?
 
+```JavaScript
+
+const { createApp, ref } = Vue; 
+    const vm = createApp({ 
+    setup () { 
+        const message = ref('Hello World!'); 
+        return { 
+            message 
+        } 
+    } 
+}); 
+
+vm.mount('#app');
+
+```
+
 
 ---
 
