@@ -96,8 +96,21 @@ vm.mount('#app');
 
 
 
-## computed/methods 差別在哪?html 中 v- 開頭的屬性有什麼用途? 請舉例?
+## computed/methods 差別在哪?
 
+> 當定義 computed 之後，其相依的 data 或是 component 中的 props(之後會提到) 改變，computed 也會隨之更新；methods 則是不管資料是否相依都會計算。  
+下例的 computed 中沒有相依的 data，因此在 message 被修改時，now 沒有被更新，但 methods 會重新計算更新 getNow 的值。
+
+
+```html
+
+<div id="app">
+  <p>message：{{ message }}</p>
+  <p>now (computed)：{{ now }}</p>
+  <p>getNow (method)：{{ getNow() }}</p>
+</div>
+
+```
 
 ---
 
