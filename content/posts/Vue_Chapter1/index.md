@@ -131,6 +131,25 @@ vm.mount('#app');
 
 ## 怎麼實作一個按鈕(button)事件?
 
+```html
+
+<div id="example-1">
+  <button v-on:click="counter += 1">Add 1</button>
+  <p>The button above has been clicked {{ counter }} times.</p>
+</div>
+
+```
+
+```JavaScript
+
+var example1 = new Vue({
+  el: '#example-1',
+  data: {
+    counter: 0
+  }
+})
+
+```
 
 ---
 
