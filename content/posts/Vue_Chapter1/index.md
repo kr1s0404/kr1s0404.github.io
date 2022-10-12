@@ -164,11 +164,22 @@ var example1 = new Vue({
 {{< image src = "v-for-1.png" caption = "v-for" >}}
 {{< image src = "v-for-2.png" caption = "渲染結果" >}}
 
----
 
+---
 
 
 ## 請用自己的話解釋 vue 元件的 生命週期 (life cycle) 與更新機制?
 
-
+> 當我們創建好一個 Vue 的實例，就會馬上進入下一個階段beforeCreate()。  
+> 1. 初始化顯示階段
+>     * beforeCreate() 實例創建前：準備工作：觀察初始化(Observe Data)、初始化事件(Init Events)，這個階段實例的 data、methods 是讀不到的  
+>     * created() 實例創建後：這個階段已經完成了資料觀察初始化(data observer)，屬性和方法的運算， watch/event 事件回調。mount 掛載階段還沒開始。
+>     * beforeMount() 在掛載開始之前被調用：相關的 render 函數首次被調用。
+>     * mounted()：初始化顯示之後。立即調用，是最常用的 callback，用來「掛載」到頁面上。
+> 2. 更新狀態顯示階段
+>     * beforeUpdate() 資料更新時調用：但不進行 DOM 重新渲染，在資料更新時 DOM 沒渲染前可以在這個生命方法裡進行狀態處理。
+>     * updated() 資料更新並且 DOM 重新渲染：這個狀態下資料更新並且 DOM 重新渲染，當這個生命週期方法被調用時，組件 DOM 已經更新，所以這時可以執行依賴於 DOM 的操作。當實例每次進行資料更新時 updated 都會執行。
+> 3. 死亡、銷毀 Vue 實例階段
+>     * beforeDestory() 實例銷毀之前調用：做收尾的工作，例如清除定時器，否則定時器會一直執行下去
+>     * destoryed() 實例銷毀後調用：Vue 實例銷毀後調用。調用後，Vue 實例指示的所有東西都會解綁定，所有的事件監聽器會被移除，所有的子實例也會被銷毀。
 ---
