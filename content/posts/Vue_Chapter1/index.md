@@ -40,10 +40,11 @@ lightgallery: true
 ## 什麼是 MVVM 模式?
 
 
-> - **1**   
-> - **2**  
-> - **3**
-> - **4**  
+> - **MVVM代表的是：Model - View - ViewModel**   
+> - **為什麼要使用MVVM：我們要將UI畫面跟Function邏輯分開**  
+> - **Model：Model代表的是一個我們定義的一個物件所擁有的屬性，例如我們定義一個'使用者'的Model，那他可以擁有姓、名、帳號、密碼、電子郵件、生日...等等的屬性**
+> - **View：View是產生畫面給使用者看的，他會根據Model的屬性數值而產生相對應的UI**  
+> - **ViewModel：ViewModel是處理程式邏輯的地方，他會將View跟Model做連結，當使用者在View上做出操作時，會透過ViewModel處理背後的程式邏輯，接著更動Model的數值。在iOS App開發的MVVM系統模式下，ViewModel會通知View：「Model的值更動了，請重新渲染View」。**  
 
 ---
 
