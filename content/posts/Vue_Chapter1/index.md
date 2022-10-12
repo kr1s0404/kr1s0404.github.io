@@ -44,7 +44,7 @@ lightgallery: true
 > - **為什麼要使用MVVM：我們要將UI畫面跟Function邏輯分開**  
 > - **Model：Model代表的是一個我們定義的一個物件所擁有的屬性，例如我們定義一個'使用者'的Model，那他可以擁有姓、名、帳號、密碼、電子郵件、生日...等等的屬性**
 > - **View：View是產生畫面給使用者看的，他會根據Model的屬性數值而產生相對應的UI**  
-> - **ViewModel：ViewModel是處理程式邏輯的地方，他會將View跟Model做連結，當使用者在View上做出操作時，會透過ViewModel處理背後的程式邏輯，接著更動Model的數值。在iOS App開發的MVVM系統模式下，ViewModel會通知View：「Model的值更動了，請重新渲染View」。**  
+> - **ViewModel：ViewModel是處理程式邏輯的地方，他會將View跟Model做連結，當使用者在View上做出操作時，會透過ViewModel處理背後的程式邏輯，接著更動Model的數值。在iOS App開發的MVVM系統模式下，ViewModel會通知View：「Model的值更動了，請重新渲染View」，所以我猜Vue應該也會吧（？。**  
 
 ---
 
@@ -182,4 +182,11 @@ var example1 = new Vue({
 > 3. 死亡、銷毀 Vue 實例階段
 >     * beforeDestory() 實例銷毀之前調用：做收尾的工作，例如清除定時器，否則定時器會一直執行下去
 >     * destoryed() 實例銷毀後調用：Vue 實例銷毀後調用。調用後，Vue 實例指示的所有東西都會解綁定，所有的事件監聽器會被移除，所有的子實例也會被銷毀。
+---
+
+
+## 心得
+
+> 除了對JS不太熟悉之外，Vue算是一個蠻好用的框架，在搭建UI時可以利用MVVM將邏輯與畫面給分開，在開發與日後的維護上都較為容易，且我本身在iOS App開發的時候就是使用MVVM，因此在寫Vue的時候可以說是非常得心應手，只要稍加熟悉JS語言的特性，大致上沒有問題！
+
 ---
