@@ -7,7 +7,7 @@ author: Kr1s
 
 resources:
 - name: "featured-image-preview"
-  src: "vue_preview.jpg"
+  src: "vue_preview.png"
 
 description: Vue (音同View) 是一套以視圖層為基礎發展的 JavaScript 漸進式框架。與其他前端框架/函式庫不同的是，Vue.js 的目標是透過簡單的 API 提供開發者實作資料綁定與操作網頁上的元件，同時也因為 Vue.js 的核心把焦點關注在狀態與畫面的同步層級上，遂能夠輕易地與其他 JavaScript 函式庫、前端開發工具鍊等整合使用，成為一套完整的前端開發方案。
 
