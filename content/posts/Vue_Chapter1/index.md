@@ -62,6 +62,13 @@ lightgallery: true
 
 ## vue2, vue3 有哪些的差異?
 
+> Vue.js 自 3.0 (版本代號：One Piece) 版本開始，除了底層核心由 TypeScript 重寫，也新增了不少特性，這裡簡單列出幾點參考：
+> - 引進了 "Fragment" 特性，不再限制元件必須只能是單一根節點
+> - 狀態的響應式偵測由 ```Object.defineProperty``` 改為 ```Proxy API```，執行時的效能更好，也解決了過去 Vue 2.x 在物件、陣列更新偵測的問題
+> - 模板編譯：靜態節點優化，新的 Virtual DOM 更新時只需要遍歷動態的節點，更新時與實際 DOM 數量脫鉤，減少不必要的效能浪費
+> - 內建新增 "Teleport"、"Suspense" 等功能型元件，擴充了更多可能性
+> - 新的 Composition API 提供了另一種對程式碼、邏輯甚至是狀態的共用管理方式，擺脫過去 mixins 的混亂
+> - 新增 ```setup```、```ref``` 等語法糖，開發時的體驗更好
 
 ---
 
