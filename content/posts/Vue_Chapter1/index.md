@@ -157,6 +157,12 @@ var example1 = new Vue({
 
 ## 請舉例一個 v-for 的用途?
 
+> 案例一：陣列渲染
+使用v-for迭代渲染出陣列中的元素。如下所示，list 是一個陣列，item 代表用於迭代的元素，使用item.name或item.age可帶出資料的屬性。  
+其中第二個參數 index 為資料的索引值 (optional)，由於資料是陣列的形式，因此，依序從 0 開始跑到 2，共 3 筆資料內容。
+
+{{< image src = "v-for-1.png" caption = "v-for" >}}
+{{< image src = "v-for-2.png" caption = "渲染結果" >}}
 
 ---
 
