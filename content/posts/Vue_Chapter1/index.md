@@ -116,7 +116,15 @@ vm.mount('#app');
 
 
 ## html 中 v- 開頭的屬性有什麼用途? 請舉例?
+### 模板語法
+> **模板語法是邏輯跟頁面之間溝通的媒介**
 
+> - V-text、V-html、V-once ... 等
+> - V-text插入：渲染純文字內容
+> - V-html：插入整個html結構
+> - V-once：將 data 內的內容渲染後，不再追蹤其變化
+
+{{< image src = "v-example.png" caption = "v- 開頭" >}}
 
 ---
 
