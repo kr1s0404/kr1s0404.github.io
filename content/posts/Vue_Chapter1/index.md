@@ -30,8 +30,8 @@ lightgallery: true
 
 ## 什麼是 漸進式 JavaScript 框架 (The Progressive JavaScript Framework)?
 
-> 123   
-  [前往查看文章](https://google.com)
+> 漸進式JavaScript指的是可以由淺入深，由簡單到困難的一種方式，“vue.js”就是一種漸進式JavaScript框架；漸進式也就是階梯式向前，例如vue的漸進式表現在聲明式渲染、組件系統、客戶端路由、大數據裝填管理、構建工具。   
+  [前往查看文章](https://www.php.cn/website-design-ask-494424.html)
 
 
 ---
